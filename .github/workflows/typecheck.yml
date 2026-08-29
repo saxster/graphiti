@@ -6,9 +6,6 @@ permissions:
 on:
   push:
     branches: ["main"]
-  pull_request:
-    branches: ["main"]
-
 jobs:
   pyright:
     runs-on: depot-ubuntu-22.04
